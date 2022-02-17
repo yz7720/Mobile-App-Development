@@ -20,7 +20,7 @@ for (index,value) in dolphinsSplit.enumerated() {
     }
 }
 
-let n = 35
+let n = 33
 for index in 0..<n {
     let value = dolphinsSplit[index]
     if value.count == 0 {

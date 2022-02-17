@@ -9,7 +9,8 @@ print ("dolphinsStr,count", dolphinsStr.count)
 let dolphinsSplit = dolphinsStr.split(separator: "\n",omittingEmptySubsequences:false)
 print("dolphinsSplit.count \(dolphinsSplit.count)")
 
-for index in 0...31{
+for index in 0...32 {
     let it = dolphinsSplit[index]
     print(it,it.count,index)
 }
+
