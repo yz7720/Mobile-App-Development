@@ -1,14 +1,14 @@
 //
-//  HomeWork5App.swift
+//  musicplayerApp.swift
 //  Shared
 //
-//  Created by yiting zeng on 25/2/22.
+//  Created by yiting zeng on 1/3/22.
 //
 
 import SwiftUI
 
 @main
-struct HomeWork5App: App {
+struct musicplayerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

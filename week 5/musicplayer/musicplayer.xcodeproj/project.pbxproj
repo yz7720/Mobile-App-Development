@@ -7,32 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26559BDD27C983E00004C9B9 /* HomeWork5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26559BCD27C983DF0004C9B9 /* HomeWork5App.swift */; };
-		26559BDE27C983E00004C9B9 /* HomeWork5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26559BCD27C983DF0004C9B9 /* HomeWork5App.swift */; };
-		26559BDF27C983E00004C9B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26559BCE27C983DF0004C9B9 /* ContentView.swift */; };
-		26559BE027C983E00004C9B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26559BCE27C983DF0004C9B9 /* ContentView.swift */; };
-		26559BE127C983E00004C9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26559BCF27C983E00004C9B9 /* Assets.xcassets */; };
-		26559BE227C983E00004C9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26559BCF27C983E00004C9B9 /* Assets.xcassets */; };
+		262AE2C227CEC5FC0074B599 /* musicplayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AE2B227CEC5F80074B599 /* musicplayerApp.swift */; };
+		262AE2C327CEC5FC0074B599 /* musicplayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AE2B227CEC5F80074B599 /* musicplayerApp.swift */; };
+		262AE2C427CEC5FC0074B599 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AE2B327CEC5F80074B599 /* ContentView.swift */; };
+		262AE2C527CEC5FC0074B599 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AE2B327CEC5F80074B599 /* ContentView.swift */; };
+		262AE2C627CEC5FC0074B599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262AE2B427CEC5FC0074B599 /* Assets.xcassets */; };
+		262AE2C727CEC5FC0074B599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262AE2B427CEC5FC0074B599 /* Assets.xcassets */; };
+		262AE2E527CF27840074B599 /* MarkerFelt.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 262AE2E427CF27840074B599 /* MarkerFelt.ttc */; };
+		262AE2E627CF27840074B599 /* MarkerFelt.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 262AE2E427CF27840074B599 /* MarkerFelt.ttc */; };
+		262AE2EB27CF36940074B599 /* page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AE2EA27CF36940074B599 /* page2.swift */; };
+		262AE2EC27CF36940074B599 /* page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AE2EA27CF36940074B599 /* page2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		26559BCD27C983DF0004C9B9 /* HomeWork5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork5App.swift; sourceTree = "<group>"; };
-		26559BCE27C983DF0004C9B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		26559BCF27C983E00004C9B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		26559BD427C983E00004C9B9 /* HomeWork5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork5.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		26559BDA27C983E00004C9B9 /* HomeWork5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork5.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		26559BDC27C983E00004C9B9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		262AE2B227CEC5F80074B599 /* musicplayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicplayerApp.swift; sourceTree = "<group>"; };
+		262AE2B327CEC5F80074B599 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		262AE2B427CEC5FC0074B599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		262AE2B927CEC5FC0074B599 /* musicplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		262AE2BF27CEC5FC0074B599 /* musicplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		262AE2C127CEC5FC0074B599 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		262AE2D427CECBB20074B599 /* Ryuichi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ryuichi.jpeg; sourceTree = "<group>"; };
+		262AE2E427CF27840074B599 /* MarkerFelt.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = MarkerFelt.ttc; path = ../../../../../../../../System/Library/Fonts/MarkerFelt.ttc; sourceTree = "<group>"; };
+		262AE2EA27CF36940074B599 /* page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		26559BD127C983E00004C9B9 /* Frameworks */ = {
+		262AE2B627CEC5FC0074B599 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26559BD727C983E00004C9B9 /* Frameworks */ = {
+		262AE2BC27CEC5FC0074B599 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,98 +49,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26559BC727C983DF0004C9B9 = {
+		262AE2AC27CEC5F70074B599 = {
 			isa = PBXGroup;
 			children = (
-				26559BCC27C983DF0004C9B9 /* Shared */,
-				26559BDB27C983E00004C9B9 /* macOS */,
-				26559BD527C983E00004C9B9 /* Products */,
+				262AE2B127CEC5F80074B599 /* Shared */,
+				262AE2C027CEC5FC0074B599 /* macOS */,
+				262AE2BA27CEC5FC0074B599 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		26559BCC27C983DF0004C9B9 /* Shared */ = {
+		262AE2B127CEC5F80074B599 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				26559BCD27C983DF0004C9B9 /* HomeWork5App.swift */,
-				26559BCE27C983DF0004C9B9 /* ContentView.swift */,
-				26559BCF27C983E00004C9B9 /* Assets.xcassets */,
+				262AE2B227CEC5F80074B599 /* musicplayerApp.swift */,
+				262AE2B327CEC5F80074B599 /* ContentView.swift */,
+				262AE2EA27CF36940074B599 /* page2.swift */,
+				262AE2E427CF27840074B599 /* MarkerFelt.ttc */,
+				262AE2B427CEC5FC0074B599 /* Assets.xcassets */,
+				262AE2D027CEC7B50074B599 /* Resources */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		26559BD527C983E00004C9B9 /* Products */ = {
+		262AE2BA27CEC5FC0074B599 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26559BD427C983E00004C9B9 /* HomeWork5.app */,
-				26559BDA27C983E00004C9B9 /* HomeWork5.app */,
+				262AE2B927CEC5FC0074B599 /* musicplayer.app */,
+				262AE2BF27CEC5FC0074B599 /* musicplayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26559BDB27C983E00004C9B9 /* macOS */ = {
+		262AE2C027CEC5FC0074B599 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				26559BDC27C983E00004C9B9 /* macOS.entitlements */,
+				262AE2C127CEC5FC0074B599 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		262AE2D027CEC7B50074B599 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				262AE2D427CECBB20074B599 /* Ryuichi.jpeg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26559BD327C983E00004C9B9 /* HomeWork5 (iOS) */ = {
+		262AE2B827CEC5FC0074B599 /* musicplayer (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26559BE527C983E00004C9B9 /* Build configuration list for PBXNativeTarget "HomeWork5 (iOS)" */;
+			buildConfigurationList = 262AE2CA27CEC5FC0074B599 /* Build configuration list for PBXNativeTarget "musicplayer (iOS)" */;
 			buildPhases = (
-				26559BD027C983E00004C9B9 /* Sources */,
-				26559BD127C983E00004C9B9 /* Frameworks */,
-				26559BD227C983E00004C9B9 /* Resources */,
+				262AE2B527CEC5FC0074B599 /* Sources */,
+				262AE2B627CEC5FC0074B599 /* Frameworks */,
+				262AE2B727CEC5FC0074B599 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "HomeWork5 (iOS)";
-			productName = "HomeWork5 (iOS)";
-			productReference = 26559BD427C983E00004C9B9 /* HomeWork5.app */;
+			name = "musicplayer (iOS)";
+			productName = "musicplayer (iOS)";
+			productReference = 262AE2B927CEC5FC0074B599 /* musicplayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		26559BD927C983E00004C9B9 /* HomeWork5 (macOS) */ = {
+		262AE2BE27CEC5FC0074B599 /* musicplayer (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26559BE827C983E00004C9B9 /* Build configuration list for PBXNativeTarget "HomeWork5 (macOS)" */;
+			buildConfigurationList = 262AE2CD27CEC5FC0074B599 /* Build configuration list for PBXNativeTarget "musicplayer (macOS)" */;
 			buildPhases = (
-				26559BD627C983E00004C9B9 /* Sources */,
-				26559BD727C983E00004C9B9 /* Frameworks */,
-				26559BD827C983E00004C9B9 /* Resources */,
+				262AE2BB27CEC5FC0074B599 /* Sources */,
+				262AE2BC27CEC5FC0074B599 /* Frameworks */,
+				262AE2BD27CEC5FC0074B599 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "HomeWork5 (macOS)";
-			productName = "HomeWork5 (macOS)";
-			productReference = 26559BDA27C983E00004C9B9 /* HomeWork5.app */;
+			name = "musicplayer (macOS)";
+			productName = "musicplayer (macOS)";
+			productReference = 262AE2BF27CEC5FC0074B599 /* musicplayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		26559BC827C983DF0004C9B9 /* Project object */ = {
+		262AE2AD27CEC5F70074B599 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					26559BD327C983E00004C9B9 = {
+					262AE2B827CEC5FC0074B599 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					26559BD927C983E00004C9B9 = {
+					262AE2BE27CEC5FC0074B599 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 26559BCB27C983DF0004C9B9 /* Build configuration list for PBXProject "HomeWork5" */;
+			buildConfigurationList = 262AE2B027CEC5F70074B599 /* Build configuration list for PBXProject "musicplayer" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,59 +159,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 26559BC727C983DF0004C9B9;
-			productRefGroup = 26559BD527C983E00004C9B9 /* Products */;
+			mainGroup = 262AE2AC27CEC5F70074B599;
+			productRefGroup = 262AE2BA27CEC5FC0074B599 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26559BD327C983E00004C9B9 /* HomeWork5 (iOS) */,
-				26559BD927C983E00004C9B9 /* HomeWork5 (macOS) */,
+				262AE2B827CEC5FC0074B599 /* musicplayer (iOS) */,
+				262AE2BE27CEC5FC0074B599 /* musicplayer (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		26559BD227C983E00004C9B9 /* Resources */ = {
+		262AE2B727CEC5FC0074B599 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26559BE127C983E00004C9B9 /* Assets.xcassets in Resources */,
+				262AE2E527CF27840074B599 /* MarkerFelt.ttc in Resources */,
+				262AE2C627CEC5FC0074B599 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26559BD827C983E00004C9B9 /* Resources */ = {
+		262AE2BD27CEC5FC0074B599 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26559BE227C983E00004C9B9 /* Assets.xcassets in Resources */,
+				262AE2E627CF27840074B599 /* MarkerFelt.ttc in Resources */,
+				262AE2C727CEC5FC0074B599 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		26559BD027C983E00004C9B9 /* Sources */ = {
+		262AE2B527CEC5FC0074B599 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26559BDF27C983E00004C9B9 /* ContentView.swift in Sources */,
-				26559BDD27C983E00004C9B9 /* HomeWork5App.swift in Sources */,
+				262AE2C427CEC5FC0074B599 /* ContentView.swift in Sources */,
+				262AE2C227CEC5FC0074B599 /* musicplayerApp.swift in Sources */,
+				262AE2EB27CF36940074B599 /* page2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26559BD627C983E00004C9B9 /* Sources */ = {
+		262AE2BB27CEC5FC0074B599 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26559BE027C983E00004C9B9 /* ContentView.swift in Sources */,
-				26559BDE27C983E00004C9B9 /* HomeWork5App.swift in Sources */,
+				262AE2C527CEC5FC0074B599 /* ContentView.swift in Sources */,
+				262AE2C327CEC5FC0074B599 /* musicplayerApp.swift in Sources */,
+				262AE2EC27CF36940074B599 /* page2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		26559BE327C983E00004C9B9 /* Debug */ = {
+		262AE2C827CEC5FC0074B599 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +274,7 @@
 			};
 			name = Debug;
 		};
-		26559BE427C983E00004C9B9 /* Release */ = {
+		262AE2C927CEC5FC0074B599 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +326,7 @@
 			};
 			name = Release;
 		};
-		26559BE627C983E00004C9B9 /* Debug */ = {
+		262AE2CB27CEC5FC0074B599 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -325,8 +347,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork5";
-				PRODUCT_NAME = HomeWork5;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.musicplayer";
+				PRODUCT_NAME = musicplayer;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,7 +356,7 @@
 			};
 			name = Debug;
 		};
-		26559BE727C983E00004C9B9 /* Release */ = {
+		262AE2CC27CEC5FC0074B599 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -355,8 +377,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork5";
-				PRODUCT_NAME = HomeWork5;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.musicplayer";
+				PRODUCT_NAME = musicplayer;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -365,7 +387,7 @@
 			};
 			name = Release;
 		};
-		26559BE927C983E00004C9B9 /* Debug */ = {
+		262AE2CE27CEC5FC0074B599 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -383,17 +405,17 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork5";
-				PRODUCT_NAME = HomeWork5;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.musicplayer";
+				PRODUCT_NAME = musicplayer;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		26559BEA27C983E00004C9B9 /* Release */ = {
+		262AE2CF27CEC5FC0074B599 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -411,10 +433,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.HomeWork5";
-				PRODUCT_NAME = HomeWork5;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.musicplayer";
+				PRODUCT_NAME = musicplayer;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -424,34 +446,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26559BCB27C983DF0004C9B9 /* Build configuration list for PBXProject "HomeWork5" */ = {
+		262AE2B027CEC5F70074B599 /* Build configuration list for PBXProject "musicplayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26559BE327C983E00004C9B9 /* Debug */,
-				26559BE427C983E00004C9B9 /* Release */,
+				262AE2C827CEC5FC0074B599 /* Debug */,
+				262AE2C927CEC5FC0074B599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26559BE527C983E00004C9B9 /* Build configuration list for PBXNativeTarget "HomeWork5 (iOS)" */ = {
+		262AE2CA27CEC5FC0074B599 /* Build configuration list for PBXNativeTarget "musicplayer (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26559BE627C983E00004C9B9 /* Debug */,
-				26559BE727C983E00004C9B9 /* Release */,
+				262AE2CB27CEC5FC0074B599 /* Debug */,
+				262AE2CC27CEC5FC0074B599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26559BE827C983E00004C9B9 /* Build configuration list for PBXNativeTarget "HomeWork5 (macOS)" */ = {
+		262AE2CD27CEC5FC0074B599 /* Build configuration list for PBXNativeTarget "musicplayer (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26559BE927C983E00004C9B9 /* Debug */,
-				26559BEA27C983E00004C9B9 /* Release */,
+				262AE2CE27CEC5FC0074B599 /* Debug */,
+				262AE2CF27CEC5FC0074B599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 26559BC827C983DF0004C9B9 /* Project object */;
+	rootObject = 262AE2AD27CEC5F70074B599 /* Project object */;
 }
