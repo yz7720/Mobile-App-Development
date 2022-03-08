@@ -16,7 +16,7 @@ struct WhiteButton: ButtonStyle {
             Spacer()
         }
         .padding()
-        .frame(width: 150, height: 50, alignment: .center)
+        .frame(width: 120, height: 50, alignment: .center)
         .background (LinearGradient(gradient: Gradient(colors: [.white, .white]), startPoint: .top, endPoint: .bottom)
         )
         .cornerRadius(200)
@@ -24,12 +24,11 @@ struct WhiteButton: ButtonStyle {
     }
 }
 
-let backgroundGradient = LinearGradient(
-    gradient: Gradient(colors: [Color.orange, Color.yellow]),
-    startPoint: .top, endPoint: .bottom)
+let lightGreyColor = Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0, opacity: 1.0)
 
 struct ContentView: View {
-    @AppStorage("username") var username: String = "Anonymous"
+    @State var username: String = ""
+    @State var password: String = ""
     
     var body: some View {
         NavigationView {
@@ -37,12 +36,28 @@ struct ContentView: View {
                 Image("pet").ignoresSafeArea()
                 VStack() {
                     HStack(){
+                        TextField("Username", text: $username)
+                            .padding()
+                            .frame(width: 180, height: 50)
+                            .background(lightGreyColor)
+                            .cornerRadius(5.0)
+                            .padding(.top,20)
+                        }
+                    HStack(){
+                        SecureField("Password", text: $password)
+                            .padding()
+                            .frame(width: 180, height: 50)
+                            .background(lightGreyColor)
+                            .cornerRadius(5.0)
+                            .padding(.top,20)
+                    }
+                    HStack(){
                     NavigationLink(destination: page2()) {
                         Text("Sign In")
                         .foregroundColor(.orange)
                         .font((.headline))
                         .bold()
-                    }.position(CGPoint(x: 190, y: 370))
+                    }
                     .buttonStyle(WhiteButton())
                     }
                     HStack(){
@@ -51,7 +66,7 @@ struct ContentView: View {
                                     .foregroundColor(.orange)
                                     .font((.headline))
                                     .bold()
-                            }.position(CGPoint(x: 190, y:40))
+                            }
                             .buttonStyle(WhiteButton())
                     }
                     }
