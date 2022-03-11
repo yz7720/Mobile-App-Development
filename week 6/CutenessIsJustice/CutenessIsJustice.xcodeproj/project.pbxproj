@@ -12,6 +12,7 @@
 		262AE2FE27D2B7F80074B599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262AE2FD27D2B7F80074B599 /* Assets.xcassets */; };
 		262AE30127D2B7F80074B599 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262AE30027D2B7F80074B599 /* Preview Assets.xcassets */; };
 		262AE30827D2B8A90074B599 /* signUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AE30727D2B8A90074B599 /* signUp.swift */; };
+		2663CB4B27DAFD5600D356F3 /* signIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2663CB4A27DAFD5600D356F3 /* signIn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		262AE2FD27D2B7F80074B599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		262AE30027D2B7F80074B599 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		262AE30727D2B8A90074B599 /* signUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUp.swift; sourceTree = "<group>"; };
+		2663CB4A27DAFD5600D356F3 /* signIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signIn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				262AE2F927D2B7F40074B599 /* CutenessIsJusticeApp.swift */,
 				262AE2FB27D2B7F40074B599 /* ContentView.swift */,
+				2663CB4A27DAFD5600D356F3 /* signIn.swift */,
 				262AE30727D2B8A90074B599 /* signUp.swift */,
 				262AE2FD27D2B7F80074B599 /* Assets.xcassets */,
 				262AE2FF27D2B7F80074B599 /* Preview Content */,
@@ -143,6 +146,7 @@
 				262AE2FC27D2B7F40074B599 /* ContentView.swift in Sources */,
 				262AE2FA27D2B7F40074B599 /* CutenessIsJusticeApp.swift in Sources */,
 				262AE30827D2B8A90074B599 /* signUp.swift in Sources */,
+				2663CB4B27DAFD5600D356F3 /* signIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
