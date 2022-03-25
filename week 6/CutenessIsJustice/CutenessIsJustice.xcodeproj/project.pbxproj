@@ -13,6 +13,13 @@
 		262AE30127D2B7F80074B599 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262AE30027D2B7F80074B599 /* Preview Assets.xcassets */; };
 		262AE30827D2B8A90074B599 /* signUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AE30727D2B8A90074B599 /* signUp.swift */; };
 		2663CB4B27DAFD5600D356F3 /* signIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2663CB4A27DAFD5600D356F3 /* signIn.swift */; };
+		26CD43D027ED6A4B0074D9AE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43CF27ED6A4B0074D9AE /* Home.swift */; };
+		26CD43D227ED76950074D9AE /* petData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43D127ED76950074D9AE /* petData.swift */; };
+		26CD43D427ED7AAE0074D9AE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43D327ED7AAE0074D9AE /* HomeViewModel.swift */; };
+		26CD43D627ED7B0E0074D9AE /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43D527ED7B0E0074D9AE /* PetModel.swift */; };
+		26CD43D827ED7B340074D9AE /* OwnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43D727ED7B340074D9AE /* OwnerModel.swift */; };
+		26CD43DA27ED7DEE0074D9AE /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43D927ED7DEE0074D9AE /* Configs.swift */; };
+		26CD43DC27ED818A0074D9AE /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43DB27ED818A0074D9AE /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +30,13 @@
 		262AE30027D2B7F80074B599 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		262AE30727D2B8A90074B599 /* signUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUp.swift; sourceTree = "<group>"; };
 		2663CB4A27DAFD5600D356F3 /* signIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signIn.swift; sourceTree = "<group>"; };
+		26CD43CF27ED6A4B0074D9AE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		26CD43D127ED76950074D9AE /* petData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petData.swift; sourceTree = "<group>"; };
+		26CD43D327ED7AAE0074D9AE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		26CD43D527ED7B0E0074D9AE /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
+		26CD43D727ED7B340074D9AE /* OwnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerModel.swift; sourceTree = "<group>"; };
+		26CD43D927ED7DEE0074D9AE /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		26CD43DB27ED818A0074D9AE /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,13 @@
 				262AE2FB27D2B7F40074B599 /* ContentView.swift */,
 				2663CB4A27DAFD5600D356F3 /* signIn.swift */,
 				262AE30727D2B8A90074B599 /* signUp.swift */,
+				26CD43CF27ED6A4B0074D9AE /* Home.swift */,
+				26CD43D327ED7AAE0074D9AE /* HomeViewModel.swift */,
+				26CD43D527ED7B0E0074D9AE /* PetModel.swift */,
+				26CD43D727ED7B340074D9AE /* OwnerModel.swift */,
+				26CD43D127ED76950074D9AE /* petData.swift */,
+				26CD43D927ED7DEE0074D9AE /* Configs.swift */,
+				26CD43DB27ED818A0074D9AE /* ColorExtension.swift */,
 				262AE2FD27D2B7F80074B599 /* Assets.xcassets */,
 				262AE2FF27D2B7F80074B599 /* Preview Content */,
 			);
@@ -143,9 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26CD43D827ED7B340074D9AE /* OwnerModel.swift in Sources */,
 				262AE2FC27D2B7F40074B599 /* ContentView.swift in Sources */,
+				26CD43D427ED7AAE0074D9AE /* HomeViewModel.swift in Sources */,
+				26CD43D227ED76950074D9AE /* petData.swift in Sources */,
+				26CD43D627ED7B0E0074D9AE /* PetModel.swift in Sources */,
+				26CD43DA27ED7DEE0074D9AE /* Configs.swift in Sources */,
 				262AE2FA27D2B7F40074B599 /* CutenessIsJusticeApp.swift in Sources */,
+				26CD43D027ED6A4B0074D9AE /* Home.swift in Sources */,
 				262AE30827D2B8A90074B599 /* signUp.swift in Sources */,
+				26CD43DC27ED818A0074D9AE /* ColorExtension.swift in Sources */,
 				2663CB4B27DAFD5600D356F3 /* signIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +308,7 @@
 				DEVELOPMENT_TEAM = HKDWBLM42R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,6 +338,7 @@
 				DEVELOPMENT_TEAM = HKDWBLM42R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
