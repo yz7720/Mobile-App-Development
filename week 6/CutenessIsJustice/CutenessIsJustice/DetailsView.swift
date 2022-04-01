@@ -92,7 +92,7 @@ struct DetailsView: View {
                             }.padding(.vertical, 16)
                             
                             Button(action: { viewModel.adoptMethod() },
-                                   label: { Text("Adopt me").modifier(SailecFont(.medium, size: 16)).foregroundColor(.white) })
+                                   label: { Text("Send Friend Request").modifier(SailecFont(.medium, size: 16)).foregroundColor(.white) })
                                 .frame(height: 50).frame(maxWidth: .infinity)
                                 .background(Color.main_color).cornerRadius(8)
                                 .padding(.vertical, 24)

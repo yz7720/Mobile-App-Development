@@ -51,7 +51,7 @@ struct signUp: View {
         HStack(){
                 NavigationLink(destination: signIn()) {
                     Text("Start Exploring")
-                        .foregroundColor(.orange)
+                        .foregroundColor(.white)
                         .font((.headline))
                         .bold()
                         .padding(.top,10)

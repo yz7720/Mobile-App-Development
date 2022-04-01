@@ -26,6 +26,9 @@
 		26CD43E527EE56D30074D9AE /* SailecFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43E427EE56D30074D9AE /* SailecFontModifier.swift */; };
 		26CD43E827EE5D820074D9AE /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43E727EE5D820074D9AE /* DetailsView.swift */; };
 		26CD43EA27EE5E130074D9AE /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43E927EE5E120074D9AE /* DetailsViewModel.swift */; };
+		26CD43EC27F6C9C20074D9AE /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43EB27F6C9C20074D9AE /* ViewB.swift */; };
+		26CD43EE27F6C9D60074D9AE /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43ED27F6C9D60074D9AE /* ViewC.swift */; };
+		26CD43F027F6C9E50074D9AE /* ViewD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43EF27F6C9E50074D9AE /* ViewD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,9 @@
 		26CD43E427EE56D30074D9AE /* SailecFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SailecFontModifier.swift; sourceTree = "<group>"; };
 		26CD43E727EE5D820074D9AE /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		26CD43E927EE5E120074D9AE /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		26CD43EB27F6C9C20074D9AE /* ViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
+		26CD43ED27F6C9D60074D9AE /* ViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
+		26CD43EF27F6C9E50074D9AE /* ViewD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 				26CD43D927ED7DEE0074D9AE /* Configs.swift */,
 				26CD43DB27ED818A0074D9AE /* ColorExtension.swift */,
 				26CD43E427EE56D30074D9AE /* SailecFontModifier.swift */,
+				26CD43EB27F6C9C20074D9AE /* ViewB.swift */,
+				26CD43ED27F6C9D60074D9AE /* ViewC.swift */,
+				26CD43EF27F6C9E50074D9AE /* ViewD.swift */,
 				26CD43DD27EE56220074D9AE /* Sailec */,
 				26CD43E027EE56690074D9AE /* Sailec-Bold.ttf */,
 				26CD43DE27EE56680074D9AE /* Sailec-Medium.ttf */,
@@ -202,9 +211,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				26CD43D827ED7B340074D9AE /* OwnerModel.swift in Sources */,
+				26CD43EC27F6C9C20074D9AE /* ViewB.swift in Sources */,
 				262AE2FC27D2B7F40074B599 /* ContentView.swift in Sources */,
 				26CD43D427ED7AAE0074D9AE /* HomeViewModel.swift in Sources */,
+				26CD43EE27F6C9D60074D9AE /* ViewC.swift in Sources */,
 				26CD43D227ED76950074D9AE /* petData.swift in Sources */,
+				26CD43F027F6C9E50074D9AE /* ViewD.swift in Sources */,
 				26CD43D627ED7B0E0074D9AE /* PetModel.swift in Sources */,
 				26CD43DA27ED7DEE0074D9AE /* Configs.swift in Sources */,
 				26CD43E827EE5D820074D9AE /* DetailsView.swift in Sources */,

@@ -14,7 +14,7 @@ struct signIn: View {
     
     var body: some View {
         Map(coordinateRegion: $region, showsUserLocation: true, userTrackingMode: .constant(.follow))
-            .frame(width: 400, height: 300)
+            .frame(width: 378.0, height: 830)
     }
 }
 

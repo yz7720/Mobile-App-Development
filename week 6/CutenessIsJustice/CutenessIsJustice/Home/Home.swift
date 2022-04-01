@@ -26,15 +26,22 @@ struct Home: View {
                             }
                             Spacer()
                         }
-                        Text("Nearby results")
+                        HStack {
+                        Text("Follow")
+                                .foregroundColor(Color.text_primary_color)
+                                .padding(.top, 24).padding(.bottom, 8)
+                        Text("Nearby")
                             .foregroundColor(Color.text_primary_color)
                             .padding(.top, 24).padding(.bottom, 8)
+                        
+                        }
                         ForEach(viewModel.petsList) { model in
                             NavigationLink(destination: DetailsView(model: model), label: {
                                 HomeListModelView(image: model.image, name: model.name, age: model.age,
                                                   about: model.about, location: model.location, gender: model.gender).padding(.bottom, 4)
                             })
                         }
+                        
                     }
                     Spacer()
                     Spacer().frame(height: 150)
