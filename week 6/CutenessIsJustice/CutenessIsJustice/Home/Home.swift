@@ -12,7 +12,6 @@ struct Home: View {
     @StateObject var viewModel = HomeViewModel()
     
     var body: some View {
-        NavigationView {
             ZStack {
                 Color.primary_color.edgesIgnoringSafeArea(.all)
                 ScrollView(.vertical, showsIndicators: false) {
@@ -49,10 +48,10 @@ struct Home: View {
                 .padding(.horizontal, 16).padding(.top, 1)
                 .navigationBarHidden(true)
             }
+            .navigationViewStyle(StackNavigationViewStyle())
         }
-        .navigationViewStyle(StackNavigationViewStyle())
     }
-}
+
 
 struct HomeListModelView: View {
     
@@ -99,6 +98,7 @@ struct GenderView: View {
 
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
-        Home()
+        NavigationView{Home()
     }
+}
 }

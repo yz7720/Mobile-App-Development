@@ -18,14 +18,13 @@ struct DetailsView: View {
     }
     
     var body: some View {
-        NavigationView {
             ZStack {
                 Color.primary_color.edgesIgnoringSafeArea(.all)
                 ScrollView(.vertical, showsIndicators: false) {
                     VStack {
                         ZStack(alignment: .top) {
                             Image(viewModel.model.image).resizable()
-                                .frame(height: 400).frame(maxWidth: .infinity)
+                                .frame(height: 400).frame(maxWidth: 500)
                             HStack {
                                 Button(action: { self.presentationMode.wrappedValue.dismiss() },
                                        label: { Image(IMAGE_BACK_ICON).resizable().frame(width: 34, height: 34) })
@@ -106,12 +105,12 @@ struct DetailsView: View {
                 .edgesIgnoringSafeArea(.all)
                 .navigationBarHidden(true)
             }
+            .navigationViewStyle(StackNavigationViewStyle())
+            .navigationBarHidden(true)
+            .navigationBarBackButtonHidden(true)
         }
-        .navigationViewStyle(StackNavigationViewStyle())
-        .navigationBarHidden(true)
-        .navigationBarBackButtonHidden(true)
     }
-}
+
 
 struct DetailsOwnerView: View {
     var image: String, name: String, bio: String
@@ -157,7 +156,7 @@ struct DetailsInfoView: View {
 
 struct DetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
+        NavigationView {
             DetailsView(model: petData.pets[0])
         }
     }
