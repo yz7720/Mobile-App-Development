@@ -26,9 +26,9 @@ struct signIn: View {
                         Image(systemName: "house")
                         Text("Home")
                     }
-                Text("The Last Tab")
+                ViewC()
                     .tabItem {
-                        Image(systemName: "3.square.fill")
+                        Image(systemName: "person.fill")
                         Text("My Profile")
                     }
             }
