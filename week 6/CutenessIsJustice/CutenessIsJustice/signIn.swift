@@ -18,18 +18,23 @@ struct signIn: View {
             TabView {
                 ViewB()
                     .tabItem {
-                        Image(systemName: "location")
-                        Text("Discover")
-                    }
-                Home()
-                    .tabItem {
                         Image(systemName: "house")
                         Text("Home")
                     }
+                Home()
+                    .tabItem {
+                        Image(systemName: "location")
+                        Text("Discover")
+                    }
                 ViewC()
                     .tabItem {
+                        Image(systemName: "rectangle.and.pencil.and.ellipsis")
+                        Text("Chat")
+                    }
+                ViewD()
+                    .tabItem {
                         Image(systemName: "person.fill")
-                        Text("My Profile")
+                        Text("My")
                     }
             }
             .font(.headline)

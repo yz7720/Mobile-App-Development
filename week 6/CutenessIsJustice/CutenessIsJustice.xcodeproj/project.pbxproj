@@ -29,6 +29,9 @@
 		26CD43EC27F6C9C20074D9AE /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43EB27F6C9C20074D9AE /* ViewB.swift */; };
 		26CD43EE27F6C9D60074D9AE /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43ED27F6C9D60074D9AE /* ViewC.swift */; };
 		26CD43F027F6C9E50074D9AE /* ViewD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD43EF27F6C9E50074D9AE /* ViewD.swift */; };
+		26D125842824DE5100921A2A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D125832824DE5100921A2A /* SearchView.swift */; };
+		26D125862824DE7900921A2A /* OnlineUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D125852824DE7900921A2A /* OnlineUserView.swift */; };
+		26D125882824DEB200921A2A /* ChatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D125872824DEB200921A2A /* ChatItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,10 @@
 		26CD43EB27F6C9C20074D9AE /* ViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
 		26CD43ED27F6C9D60074D9AE /* ViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
 		26CD43EF27F6C9E50074D9AE /* ViewD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewD.swift; sourceTree = "<group>"; };
+		26D125812824729800921A2A /* SwiftyChat-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "SwiftyChat-master"; path = "../../../../../../../Desktop/SwiftyChat-master"; sourceTree = "<group>"; };
+		26D125832824DE5100921A2A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		26D125852824DE7900921A2A /* OnlineUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUserView.swift; sourceTree = "<group>"; };
+		26D125872824DEB200921A2A /* ChatItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +110,9 @@
 				26CD43EB27F6C9C20074D9AE /* ViewB.swift */,
 				26CD43ED27F6C9D60074D9AE /* ViewC.swift */,
 				26CD43EF27F6C9E50074D9AE /* ViewD.swift */,
+				26D125872824DEB200921A2A /* ChatItem.swift */,
+				26D125852824DE7900921A2A /* OnlineUserView.swift */,
+				26D125832824DE5100921A2A /* SearchView.swift */,
 				26CD43DD27EE56220074D9AE /* Sailec */,
 				26CD43E027EE56690074D9AE /* Sailec-Bold.ttf */,
 				26CD43DE27EE56680074D9AE /* Sailec-Medium.ttf */,
@@ -116,6 +126,7 @@
 		262AE2FF27D2B7F80074B599 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				26D125812824729800921A2A /* SwiftyChat-master */,
 				262AE30027D2B7F80074B599 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -210,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D125882824DEB200921A2A /* ChatItem.swift in Sources */,
 				26CD43D827ED7B340074D9AE /* OwnerModel.swift in Sources */,
 				26CD43EC27F6C9C20074D9AE /* ViewB.swift in Sources */,
 				262AE2FC27D2B7F40074B599 /* ContentView.swift in Sources */,
@@ -220,6 +232,8 @@
 				26CD43D627ED7B0E0074D9AE /* PetModel.swift in Sources */,
 				26CD43DA27ED7DEE0074D9AE /* Configs.swift in Sources */,
 				26CD43E827EE5D820074D9AE /* DetailsView.swift in Sources */,
+				26D125862824DE7900921A2A /* OnlineUserView.swift in Sources */,
+				26D125842824DE5100921A2A /* SearchView.swift in Sources */,
 				26CD43E527EE56D30074D9AE /* SailecFontModifier.swift in Sources */,
 				262AE2FA27D2B7F40074B599 /* CutenessIsJusticeApp.swift in Sources */,
 				26CD43D027ED6A4B0074D9AE /* Home.swift in Sources */,
